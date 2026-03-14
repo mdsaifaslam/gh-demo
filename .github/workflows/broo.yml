@@ -1,0 +1,11 @@
+name: Hello brother
+
+on: workflow_dispatch
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello brooo
+        run: echo "Hello world to broooo"
